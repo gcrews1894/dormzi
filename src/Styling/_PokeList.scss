@@ -1,0 +1,41 @@
+.PokeList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	.carouselButton {
+		width: 100%;
+		font-size: 24px;
+		background: #3b4cca;
+		border: none;
+		color: white;
+		padding: 0.5em 0;
+		font-weight: 600;
+	}
+	.carouselDiv {
+		border: 5px solid #3b4cca;
+		height: 45vh;
+		width: 75vw;
+		position: absolute;
+		top: 25%;
+		left: 12.5%;
+		background: white;
+		box-shadow: 5px 5px 10px black;
+		&.invis {
+			display: none;
+		}
+		.carouselTile {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			img {
+				height: 10em;
+				width: auto;
+			}
+			.link {
+				font-size: 12px;
+				color: black;
+			}
+		}
+	}
+}

@@ -1,0 +1,120 @@
+.detailsPage {
+	.prevPoke {
+		background: #ff0000;
+		position: absolute;
+		top: 50%;
+		left: 60px;
+		padding: 0.5em 0.75em;
+		border-radius: 10px;
+	}
+	.nextPoke {
+		background: #ff0000;
+		position: absolute;
+		top: 50%;
+		right: 60px;
+		padding: 0.5em 0.75em;
+		border-radius: 10px;
+	}
+	.PokeDetails {
+		display: flex;
+		position: absolute;
+		left: 10%;
+		top: 5%;
+		width: 80vw;
+		height: 90vh;
+		background: #cc0000;
+		border: 10px solid #3b4cca;
+		border-radius: 40px;
+		box-shadow: 4px 2px 15px;
+		p {
+			font-size: 18px;
+		}
+		.detailsPic {
+			background-color: white;
+			width: 250px;
+			height: 250px;
+			position: relative;
+			top: 175px;
+			left: 25px;
+			border: 3px solid #ffde00;
+			border-radius: 20px;
+		}
+		.englishName {
+			color: white;
+			position: relative;
+			top: 430px;
+			left: -175px;
+			text-align: center;
+		}
+		.namesDiv {
+			background: white;
+			width: 300px !important;
+			height: 8em;
+			position: absolute;
+			top: 125px;
+			left: 300px;
+			padding: 1em;
+			margin: 0;
+			z-index: 10;
+			border: 3px solid #ffde00;
+			border-radius: 20px;
+			h2 {
+				padding-bottom: 0.5em;
+				text-align: center;
+			}
+		}
+		.statsDiv {
+			background: white;
+			width: 300px !important;
+			height: 14em;
+			position: absolute;
+			top: 275px;
+			left: 300px;
+			padding: 1em;
+			margin: 0;
+			z-index: 10;
+			border: 3px solid #ffde00;
+			border-radius: 20px;
+			h2 {
+				text-align: center;
+				padding-bottom: 0.5em;
+			}
+		}
+		.skillsDiv {
+			background: white;
+			width: 450px;
+			height: 90%;
+			position: absolute;
+			right: 5%;
+			top: 5%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			padding: 1em;
+			margin: 0;
+			border: 3px solid #ffde00;
+			border-radius: 20px;
+			h1 {
+				text-align: center;
+				width: 100%;
+				padding-bottom: 0;
+			}
+			div {
+				border: 1px solid #b3a125;
+				width: 45%;
+				height: 33%;
+				padding: 0.5em;
+				overflow: scroll;
+				border-radius: 15px;
+				box-shadow: 0px 1px 10px grey;
+				span {
+					font-weight: 300;
+				}
+			}
+			.tutorDiv {
+				width: 95%;
+				height: 20%;
+			}
+		}
+	}
+}
